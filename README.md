@@ -12,7 +12,6 @@ It also aims to allow management of Mobile Apps and the Services running in the 
 
 ## Getting Started
 
-This application was initialised from 'angular-seed' https://github.com/angular/angular-seed.
 To run locally, you will need an OpenShift cluster. e.g.
 
 ```bash
@@ -28,3 +27,7 @@ npm start
 
 Visit https://localhost:9000.
 You may be redirected to your local OpenShift cluster (https://localhost:8443) & prompted to login. After login, you should see the MCP
+
+--------
+
+_This application was initialised from 'angular-seed' https://github.com/angular/angular-seed._
