@@ -13,11 +13,16 @@
     "html5-boilerplate": "^5.3.0",
     "origin-web-common": "^0.0.41",
     "lodash": "^4.17.4",
-    "hawtio-core": "^3.0.16"
+    "hawtio-core": "^3.0.16",
+    "angular-patternfly": "3.24.0",
+    "patternfly": "3.24.0"
   },
   "resolutions": {
     "jquery": "~2.1.4",
     "lodash": "~3.10.1",
-    "hawtio-core": "~2.0.37"
+    "hawtio-core": "~2.0.37",
+    "patternfly": "~3.24.0",
+    "moment": "~2.18.1",
+    "font-awesome": "~4.7.0"
   }
 }
