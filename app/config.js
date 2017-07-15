@@ -8,7 +8,7 @@
   // To change configuration for local development, copy this file to
   // assets/app/config.local.js and edit the copy.
   var masterPublicHostname = 'localhost:8443';
-  var devConsoleHostname = 'localhost:9000';
+  var devConsoleHostname = 'localhost:8001';
   window.OPENSHIFT_CONFIG = {
     apis: {
       hostPort: masterPublicHostname,

@@ -25,7 +25,7 @@ npm install
 npm start
 ```
 
-Visit https://localhost:9000.
+Visit https://localhost:8001.
 You may be redirected to your local OpenShift cluster (https://localhost:8443) & prompted to login. After login, you should see the MCP
 
 --------

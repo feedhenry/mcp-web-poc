@@ -5,4 +5,4 @@ metadata:
   creationTimestamp: null
   name: mcp-web-poc
 redirectURIs:
-- https://localhost:9000
+- https://localhost:8001
