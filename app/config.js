@@ -28,7 +28,7 @@
       oauth_authorize_uri: 'https://' + masterPublicHostname + "/oauth/authorize",
       oauth_token_uri: 'https://' + masterPublicHostname + "/oauth/token",
       oauth_redirect_base: "https://" + devConsoleHostname + "/#",
-      oauth_client_id: "openshift-web-console",
+      oauth_client_id: "mcp-web-poc",
       logout_uri: ""
     },
     loggingURL: "",

@@ -1,0 +1,8 @@
+apiVersion: v1
+grantMethod: auto
+kind: OAuthClient
+metadata:
+  creationTimestamp: null
+  name: mcp-web-poc
+redirectURIs:
+- https://localhost:9000

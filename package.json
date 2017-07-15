@@ -21,7 +21,7 @@
     "postinstall": "bower install",
     "update-deps": "npm update",
     "postupdate-deps": "bower update",
-    "prestart": "npm install",
+    "prestart": "npm install && oc --server https://localhost:8443 get oauthclient/mcp-web-poc || oc --server https://localhost:8443 create -f ./oauthclient.yml",
     "start": "node server.js ./tls/tls.key ./tls/tls.crt 9000",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
