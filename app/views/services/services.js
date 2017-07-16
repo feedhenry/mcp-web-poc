@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.services', ['ngRoute'])
+angular.module('mcpWebPoc.services', ['ngRoute'])
 
 .controller('ServicesController', ['$scope', 'ProjectsService', 'DataService', function($scope, ProjectsService, DataService) {
   $scope.services = [];

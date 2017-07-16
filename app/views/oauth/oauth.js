@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name myApp.controller:OAuthController
+ * @name mcpWebPoc.controller:OAuthController
  * @description
  * # OAuthController
  * Controller of the openshiftConsole
  */
-angular.module('myApp')
+angular.module('mcpWebPoc')
   .controller('OAuthController', function ($scope, $location, $q, RedirectLoginService, DataService, AuthService, Logger) {
     var authLogger = Logger.get("auth");
 

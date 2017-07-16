@@ -23,3 +23,18 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+@media (min-width: 768px) {
+  .navbar-pf-vertical .navbar-toggle {
+    display: none !important;
+  }
+}
+
+.navbar-pf-vertical .navbar-toggle + .navbar-brand {
+  height: 58px;
+  margin-left: 15px;
+}
+
+.navbar-pf-vertical .navbar-brand-icon {
+  width: 200px;
+}

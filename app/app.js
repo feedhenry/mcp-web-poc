@@ -1,10 +1,10 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('mcpWebPoc', [
   'ngRoute',
-  'myApp.services',
-  'myApp.version',
+  'mcpWebPoc.services',
+  'mcpWebPoc.version',
   'openshiftCommonServices'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
@@ -22,4 +22,4 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     .otherwise({redirectTo: '/services'});
 }]);
 
-hawtioPluginLoader.addModule('myApp');
+hawtioPluginLoader.addModule('mcpWebPoc');
